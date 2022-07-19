@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-
+<!-- commit before changes -->
     
     <?php
         get_footer();
