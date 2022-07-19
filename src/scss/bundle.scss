@@ -1,6 +1,7 @@
 // bundle.scss
 
 // Abstracts - order matters
+@import 'custom-bs5';
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
@@ -11,7 +12,7 @@
 
 // Components
 
-// ...add components here
+@import 'components/Hero';
 
 // ...and make sure to add _dev last
 @import 'components/dev';
