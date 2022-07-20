@@ -9,6 +9,7 @@ function load_styles() {
 
     wp_register_style('styles-bundle', get_template_directory_uri() . '/dist/css/bundle.css', array(), '1.0', 'all' );
     wp_enqueue_style('styles-bundle');
+
 }
 
 add_action('wp_enqueue_scripts', 'load_styles');
@@ -21,6 +22,7 @@ function load_js() {
     wp_enqueue_script('bootstrap-scripts');
 
     wp_enqueue_script( 'scripts-bundle', get_template_directory_uri() . '/dist/js/bundle.js', array(), null, true );
+    
 }
 
 add_action('wp_enqueue_scripts', 'load_js');
